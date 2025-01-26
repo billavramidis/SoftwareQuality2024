@@ -50,26 +50,37 @@ public class TexturePackDisplay extends Display {
 	 * Many texture packs can be put according to the number of files.
 	 */
 
-	public static List<ListEntry> loadTexturePacks() {
+	 // Διόρθωσα ένα bug εδώ!!
+	 public static List<ListEntry> loadTexturePacks() {
 		List<ListEntry> textureList = new ArrayList<>();
 		textureList.add(new SelectEntry(TexturePackDisplay.DEFAULT_TEXTURE_PACK, TexturePackDisplay::update, false));
 		textureList.add(new SelectEntry(TexturePackDisplay.LEGACY_TEXTURE_PACK, TexturePackDisplay::update, false));
-
-		// Generate texture packs folder
-		if (Game.debug && location.mkdirs()) {
+	
+		// Check if the 'location' directory is valid and create it if it doesn't exist.
+		if (location == null) {
+			throw new IllegalStateException("Texture pack location is not initialized.");
+		}
+	
+		if (!location.exists() && location.mkdirs()) {
 			Logger.debug("Created {}, as texture packs folder", location);
 		}
-
-		// Read and add the .zip file to the texture pack list.
-		for (String fileName : Objects.requireNonNull(location.list())) {
-			// Only accept files ending with .zip.
-			if (fileName.endsWith(".zip")) {
-				textureList.add(new SelectEntry(fileName, TexturePackDisplay::update, false));
+	
+		// Read and add the .zip files to the texture pack list.
+		String[] files = location.list();
+		if (files == null) {
+			Logger.warn("Texture pack directory is empty or could not be read: {}", location);
+		} else {
+			for (String fileName : files) {
+				// Only accept files ending with .zip.
+				if (fileName.endsWith(".zip")) {
+					textureList.add(new SelectEntry(fileName, TexturePackDisplay::update, false));
+				}
 			}
 		}
-
+	
 		return textureList;
 	}
+	
 
 	public TexturePackDisplay() {
 		super(true, true, new Menu.Builder(false, 2, RelPos.CENTER, loadTexturePacks())
