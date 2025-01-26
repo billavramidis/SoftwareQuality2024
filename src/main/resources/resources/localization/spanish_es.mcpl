@@ -1,0 +1,1851 @@
+### Achievement
+
+# achievement
+
+minicraft.achievement.woodcutter
+Leñador
+
+minicraft.achievement.woodcutter.desc
+Corta madera.
+
+minicraft.achievement.benchmarking
+¡Hora de craftear!
+
+minicraft.achievement.benchmarking.desc
+Haz una mesa de crafteo.
+
+minicraft.achievement.mine_stone
+Edad de piedra!
+
+minicraft.achievement.mine_stone.desc
+Extrae piedra con tu nuevo pico.
+
+minicraft.achievement.smelt_iron
+Edad de hierro!
+
+minicraft.achievement.smelt_iron.desc
+Extrae hierro y derritelo.
+
+minicraft.achievement.upgrade
+Actualizacion!
+
+minicraft.achievement.upgrade.desc
+Consiga una herramienta con un material más resistente que la madera.
+
+minicraft.achievement.iron_tools
+Que pesado!
+
+minicraft.achievement.iron_tools.desc
+Consiga una herramienta con un material más resistente que la piedra.
+
+minicraft.achievement.monsters
+Que es eso?!
+
+minicraft.achievement.monsters.desc
+Mata a un mob hostil.
+
+minicraft.achievement.fish
+A pescar!
+
+minicraft.achievement.fish.desc
+Pesca un pez
+
+minicraft.achievement.doors
+!TOC toc!
+
+minicraft.achievement.doors.desc
+Coloque todos los tipos de puertas.
+
+minicraft.achievement.planks
+¡Camina por los tablones!
+
+minicraft.achievement.planks.desc
+Coloque todos los tipos de tablones.
+
+minicraft.achievement.clothes
+¡Que tengas un día colorido!
+
+minicraft.achievement.clothes.desc
+Craftea toda las ropas de colores.
+
+minicraft.achievement.demolition
+Boom!
+
+minicraft.achievement.demolition.desc
+Utilice TNT.
+
+minicraft.achievement.explosive_ending
+Un final explosivo
+
+minicraft.achievement.explosive_ending.desc
+"Accidentalmente" hazte explotar.
+
+minicraft.achievement.survive_darkness
+¿Miedo a la oscuridad?
+
+minicraft.achievement.survive_darkness.desc
+Sobrevive 5 minutos en total oscuridad.
+
+minicraft.achievement.lava
+Asuntos candentes
+
+minicraft.achievement.lava.desc
+Usa una pocion de lava para nadar en lava.
+
+minicraft.achievement.find_gem
+¡Oooh Brillante!
+
+minicraft.achievement.find_gem.desc
+Encuentra gemas y minalas.
+
+minicraft.achievement.lowest_caves
+Oscuridad detrás de la luz
+
+minicraft.achievement.lowest_caves.desc
+Llega a las cuevas más bajas.
+
+minicraft.achievement.obsidian_dungeon
+Hace calor aqui abajo!
+
+minicraft.achievement.obsidian_dungeon.desc
+Llega a la mazmorra de obsidiana.
+
+minicraft.achievement.airwizard
+Esto apenas comienza?
+
+minicraft.achievement.airwizard.desc
+¡Derrota al primer Mago del Aire!
+
+minicraft.achievement.second_airwizard
+Ultratumba!
+
+minicraft.achievement.second_airwizard.desc
+¡Derrota al segundo Mago del Aire!
+
+minicraft.achievement.eye_queen
+Te veo!
+
+minicraft.achievement.eye_queen.desc
+Invoca y derrota a la Reina ojo.
+
+minicraft.achievement.eat_all_food
+A dieta
+
+minicraft.achievement.eat_all_food.desc
+Come todo lo sea comestible.
+
+
+# AchievementsDisplay.java
+Earned!
+Obtenido!
+
+Not Earned
+No Obtenido
+
+Achievements Score:
+Puntaje:
+
+### entity
+
+## entity.particle
+## entity.particle end
+
+# Entity.java
+Entities
+Entidades
+
+# AirWizard.java
+The Air Wizard was beaten!
+El Mago de Aire fue derrotado!
+
+The Dungeon is now open!
+El calabozo esta abierto ahora!
+
+A book lies on the ground...
+Un libro descansa en el suelo...
+
+A costume lies on the ground...
+Un disfraz descansa en el suelo...
+
+# Bed.java
+Sleeping
+Durmiendo
+
+You can only sleep at night!
+Solo puedes dormir de noche!
+
+# DungeonChest.java
+You hear a noise from the surface!
+Escuchas un ruido de la superficie!
+
+# DeathChest.java
+Death Chest
+Cofre de la Muerte
+
+# Player.java
+
+Player
+Jugador
+
+Crafting
+Elaborando
+
+Set your home!
+Establece tu casa!
+
+Can't set home here!
+No puedes establecer la casa aqui!
+
+Home Sweet Home!
+Hogar Dulce Hogar!
+
+You don't have a home!
+No tienes una casa!
+
+You can't go home from here!
+No puedes ir a casa desde aqui!
+ 
+### entity end
+
+### gfx
+### gfx end
+
+### item
+
+# ArmorItem.java
+Leather Armor
+Armadura de Cuero
+
+Snake Armor
+Armadura de Serpiente
+
+ChainMail Armor
+Armadura Cota de Malla
+
+Iron Armor
+Armadura de Hierro
+
+Gold Armor
+Armadura de Oro
+
+Gem Armor
+Armadura de Gema
+
+# BoatItem.java
+
+Boat
+Barco
+
+# BookItem.java
+
+Book
+Libro
+
+Antidious
+Antidoto
+
+Grimoire
+Grimorio
+
+# BucketItem.java
+
+Empty Bucket
+Cubeta Vacia
+
+Water Bucket
+Cubeta de Agua
+
+Lava Bucket
+Cubeta de Lava
+
+ Bucket
+ Cubeta
+ 
+# ClothingItem.java
+
+Red Clothes
+Traje Rojo
+
+Blue Clothes
+Traje Azul
+
+Green Clothes
+Traje Verde
+
+Yellow Clothes
+Traje Amarillo
+
+Black Clothes
+Traje Negro
+
+Orange Clothes
+Traje Anaranjado
+
+Purple Clothes
+Traje Morado
+
+Cyan Clothes
+Traje Turquesa
+
+Reg Clothes
+Traje Regular
+
+# FoodItem.java
+
+Bread
+Pan
+
+Apple
+Manzana
+
+Frozen palette
+Paleta Congelada
+
+Mushroom Soup
+Sopa de hongos
+
+Carrot Soup
+Sopa de Zanahoria
+
+Raw Chicken
+Pollo Crudo
+
+Raw Pork
+Cerdo Crudo
+
+Raw Fish
+Pescado Crudo
+
+Raw Beef
+Bistec Crudo
+
+Cooked Chicken
+Pollo Cocinado
+
+Pork Chop
+Chuleta de Cerdo
+
+Cooked Fish
+Pescado Cocido
+
+Cooked Pork
+Cerdo Cocido
+
+Steak
+Bistec
+
+Gold Apple
+Manzana Dorada
+
+Gold Carrot
+Zanahoria Dorada
+
+# FurnitureItem.java
+
+Cow Spawner
+Generador de Vacas
+
+Pig Spawner
+Generador de Cerdos
+
+Sheep Spawner
+Generador de Ovejas
+
+Goat Spawner
+Generador de Cabras
+
+Chicken Spawner
+Generador de Pollos
+
+Cleric Spawner
+Generador de Clerigos
+
+Librarian Spawner
+Generador de Bibliotecarios
+
+GuiMan Spawner
+Generador de Pinguinos
+
+Cat Spawner
+Generador de Gatos
+
+Golem Spawner
+Generador de Golems
+
+Slime Spawner
+Generador de Slimes
+
+Zombie Spawner
+Generador de Zombies
+
+Creeper Spawner
+Generador de Creepers
+
+Skeleton Spawner
+Generador de Esqueletos
+
+Snake Spawner
+Generador de Serpientes
+
+Knight Spawner
+Generador de Caballeros
+
+OldGolem Spawner
+Generador de Golems viejos
+
+AirWizard Spawner
+Generador de Magos de Aire
+
+EyeQueen Spawner
+Generador de Reinas Ojo
+
+Keeper Spawner
+Generador de Guardian
+
+Firefly Spawner
+Generador de Luciernagas
+
+Workbench
+Mesa de Trabajo
+
+Oven
+Horno
+
+Furnace
+Horno
+
+Anvil
+Yunque
+
+Enchanter
+Encantador
+
+Stonecutter
+Cortapiedra
+
+Brewery
+Destilador
+
+Loom
+Telar
+
+Lantern
+Linterna
+
+Iron Lantern
+Linterna de Hierro
+
+Gold Lantern
+Linterna de Oro
+
+Tnt
+Dinamita
+
+Bed
+Cama
+
+Slime Statue
+Estatua de Slime
+
+Zombie Statue
+Estatua de Zombie
+
+Skeleton Statue
+Estatua de Esqueleto
+
+Chest
+Cofre
+
+Dungeon Chest
+Cofre de Calabozo
+
+# MapItem.java
+
+Map book
+Libro de Mapas
+
+# AmuletItem.java
+
+Eye Amulet
+Amuleto del Ojo
+
+Slimy Amulet
+Amuleto del Guardian
+
+# PotionType.java
+
+None Potion
+Ninguna Pocion
+
+Speed Potion
+Pocion de Velocidad
+
+xSpeed Potion
+Pocion de Velocidad II
+
+Light Potion
+Pocion de Luz
+
+xLight Potion
+Pocion de Luz II
+
+Swim Potion
+Pocion de Nadar
+
+xSwim Potion
+Pocion de Nadar II
+
+Energy Potion
+Pocion de Energia
+
+xEnergy Potion
+Pocion de Energia II
+
+Regen Potion
+Pocion de Curacion
+
+xRegen Potion
+Pocion de Curacion II
+
+Health Potion
+Pocion de Vida
+
+xHealth Potion
+Pocion de Vida II
+
+Time Potion
+Pocion de Tiempo
+
+Lava Potion
+Pocion de Lava
+
+xLava Potion
+Pocion de Lava II
+
+Shield Potion
+Pocion de Escudo
+
+xShield Potion
+Pocion de Escudo II
+
+Haste Potion
+Pocion de Prisa
+
+Escape Potion
+Pocion de Escape
+
+Potion
+Pocion
+
+# PowerGloveItem.java
+
+Power Glove
+Guante
+
+# ShearItem.java
+
+Shears
+Tijeras
+
+# StackableItem.java
+
+Oak Wood
+Madera de Roble
+
+Spruce Wood
+Madera de Abeto
+
+Birch Wood
+Madera de Abedul
+
+Leaf
+Hoja
+
+Paper
+Papel
+
+Leather
+Cuero
+
+Wheat
+Trigo
+
+Key
+Llave
+
+Arrow
+Flecha
+
+Icicle
+Carambano
+
+Stick
+Palo
+
+Bowl
+Tazon
+
+String
+Cuerda
+
+Feather
+Pluma
+
+Egg
+Huevo
+
+Stone
+Piedra
+
+Holy Stone
+Piedra Sagrada
+
+Andesite
+Andesita
+
+Diorite
+Diorita
+
+Granite
+Granito
+
+Silicon
+Silicio
+
+Basalt
+Basalto
+
+Quartzite
+Cuarcita
+
+Light gray dye
+Tinte Gris Claro
+
+Gray dye
+Tinte Gris
+
+Ink sac
+Saco de Tinta
+
+Lime dye
+Tinte Lima
+
+Yellow dye
+Tinte Amarillo
+
+Green dye
+Tinte Verde
+
+Brown dye
+Tinte Marron
+
+Red dye
+Tinte Rojo
+
+Purple dye
+Tinte Morado
+
+Pink dye
+Tinte Rosa
+
+Magenta dye
+Tinte Magenta
+
+Dark green dye
+Tinte Verde Oscuro
+
+Orange dye
+Tinte Naranja
+
+Blue dye
+Tinte Azul
+
+Cyan dye
+Tinte Cian
+
+Light blue dye
+Tinte Celeste
+
+Coal
+Carbon
+
+Iron Ore
+Mena de Hierro
+
+Lapis
+Lapis
+
+Gold Ore
+Mena de Oro
+
+Iron
+Hierro
+
+Gold
+Oro
+
+Rose
+Rosa
+
+GunPowder
+Polvora
+
+Slime
+Slime
+
+Glass
+Vidrio
+
+Cloth
+Tela
+
+Gem
+Gema
+
+Emerald
+Esmeralda
+
+Scale
+Escama
+
+Shard
+Fragmento
+
+Gear
+Engranaje
+
+Spring
+Resorte
+
+Flint
+Pedernal
+
+Sticky essence
+Esencia Pegajosa
+
+Gaseous essence
+Esencia Gaseosa
+
+Master essence
+Esencia Maestra
+
+# TileItem.java
+
+Daisy
+Margarita
+
+Rose
+Rosa
+
+Dandelion
+Diente de Leon
+
+Poppy
+Amapola
+
+Acorn
+Bellota
+
+Birch Cone
+Piña de Abedul
+
+Fir Cone
+Piña de Abeto
+
+Pine Cone
+Piña de Pino
+
+Dirt
+Tierra
+
+Sky Grass
+Cesped del Cielo
+
+Ice
+Hielo
+
+Red Mushroom
+Hongo Rojo
+
+Brown Mushroom
+Hongo Cafe
+
+Natural Rock
+Piedra Natural
+
+Natural Hard Rock
+Piedra Natural Dura
+
+Oak Plank
+Tablon de Roble
+
+Spruce Plank
+Tablon de Abeto
+
+Birch Plank
+Tablon de Abedul
+
+Oak Wall
+Muro de Roble
+
+Spruce Wall
+Muro de Abeto
+
+Birch Wall
+Muro de Abedul
+
+Oak Door
+Puerta de Roble
+
+Spruce Door
+Puerta de Abeto
+
+Birch Door
+Puerta de Abedul
+
+Stone Brick
+Ladrillo de Piedra
+
+Stone Wall
+Muro de Piedra
+
+Stone Door
+Puerta de Piedra
+
+Holy Brick
+Ladrillo Sagrado
+
+Holy Wall
+Muro Sagrado
+
+Holy Door
+Puerta Sagrada
+
+Obsidian Brick
+Ladrillo de Obsidiana
+
+Obsidian Wall
+Muro de Obsidiana
+
+Obsidian Door
+Puerta de Obsidiana
+
+Wool
+Lana
+
+Light Gray Wool
+Lana Gris Claro
+
+Gray Wool
+Lana Gris
+
+Black Wool
+Lana Negra
+
+Brown Wool
+Lana Marron
+
+Red Wool
+Lana Roja
+
+Orange Wool
+Lana Naranja
+
+Yellow Wool
+Lana Amarilla
+
+Lime Wool
+Lana Lima
+
+Green Wool
+Lana Verde
+
+Cyan Wool
+Lana Cian
+
+Light Blue Wool
+Lana Celeste
+
+Blue Wool
+Lana Azul
+
+Purple Wool
+Lana Morada
+
+Magenta Wool
+Lana Magenta
+
+Pink Wool
+Lana Rosa
+
+Sand
+Arena
+
+Mycelium
+Micelio
+
+Snow Ball
+Bola de Nieve
+
+Cactus
+Cactus
+
+Seeds
+Semillas
+
+Carrot
+Zanahoria
+
+Potato
+Patata
+
+Sky wart
+Verruga del Cielo
+
+Sky Seeds
+Semillas del Cielo
+
+Grass Seeds
+Semillas de Cesped
+
+Bone
+Hueso
+
+Bone Powder
+Polvo de Hueso
+
+Ferrosite
+Nube Rapida
+
+Cloud
+Nube
+
+Can only be placed on 
+Solo se puede colocar en
+
+Dig a hole first!
+¡Cava un hoyo primero!
+
+# ToolItem.java
+
+Wood
+Madera
+
+Rock
+Roca
+
+Iron
+Hierro
+
+Gold
+Oro
+
+Gem
+Gema
+
+Fishing rod
+Caña de Pescar
+
+# FishingRodItem.java
+
+Wood Fishing rod
+Caña de Pescar de Madera
+
+Iron Fishing rod
+Caña de Pescar de Hierro
+
+Gold Fishing rod
+Caña de Pescar de Oro
+
+Gem Fishing rod
+Caña de Pescar de Gema
+
+# ToolType.java
+
+Hoe
+Azada
+
+Shovel
+Pala
+
+Sword
+Espada
+
+Spear
+Lanza
+
+Pickaxe
+Pico
+
+Axe
+Hacha
+
+Bow
+Arco
+
+FishingRod
+Caña de Pescar
+
+Claymore
+Claymore
+
+Shears
+Tijeras
+
+Igniter
+Mechero
+
+# TorchItem.java
+
+Torch
+Antorcha
+
+### item end
+
+### level
+
+## tile 
+
+# Tiles.java
+
+Gem Ore
+Mena de Gema
+
+Oak Planks
+Tablon de roble
+
+Spruce Planks
+Tablon de abeto
+
+Birch Planks
+Tablon de abedul
+
+Stone Bricks
+Ladrillo de piedra
+
+Obsidian
+Obsidiana
+
+Oak Wall
+Muro de roble
+
+Spruce Wall
+Muro de abeto
+
+Birch Wall
+Muro de abedul
+
+Grass
+Cesped
+
+Mycelium
+Micelio
+
+Dirt
+Tierra
+
+Flower
+Flor
+
+Hole
+Hoyo
+
+Stairs Up
+Escaleras Arriba
+
+Stairs Down
+Escaleras Abajo
+
+Water
+Agua
+
+Rock
+Roca
+
+Tree
+Arbol
+
+Tree Sapling
+Brote de Arbol
+
+Sand
+Arena
+
+Cactus
+Cactus
+
+Cactus Sapling
+Brote de Cactus
+
+Lava
+Lava
+
+Lava Brick
+Ladrillo de Lava
+
+Explode
+Explotar
+
+Farmland
+Tierras de Cultivo
+
+Wheat
+Trigo
+
+Carrot
+Zanahoria
+
+Hard Rock
+Roca Dura
+
+Infinite Fall
+Caída Infinita
+
+Cloud
+Nube
+
+Cloud Cactus
+Cactus de Nube
+
+# OreTile.java
+
+Iron
+Hierro
+
+Lapis
+Lapis
+
+Gold
+Oro
+
+Gem
+Gema
+
+Ore
+Mena
+
+## tile end
+
+### level end
+
+### network
+
+# MinicraftClient.java
+
+host not found
+Host no encontrado
+
+unable to get localhost address
+incapaz de obtener la direccion localhost
+
+### network end
+
+### saveload
+
+# Save.java
+
+Saving
+Guardando
+
+World Saved!
+Mundo guardado!
+
+### saveload end
+
+### screen
+
+## entry
+
+# BooleanEntry.java
+
+On
+On
+
+Off
+Off
+
+## entry end
+
+# BookDisplay.java
+
+There is nothing of use here.
+No hay nada de uso aqui.
+
+Still nothing... :P
+Todavia nada... :P
+
+# CraftingMenu.java
+
+Have:
+Tienes:
+
+Cost:
+Costo:
+
+# DeadMenu.java
+
+Time: 
+Tiempo: 
+
+Score: 
+Puntos: 
+
+Quit
+Salir
+
+Respawn
+Reaparecer
+
+You died! Aww!
+Moriste! Aww!
+
+# Displays.java
+
+With the default controls...\n\nMove your character with arrow keys or WSAD. Press C to attack and X to open the inventory, and to use items. Select an item in the inventory to equip it.\n\nKill the air wizard to win the game!
+Con los controles predeterminados...\n\nMueve tu personjado con las flechas o WSAD. Presiona C para atacar y X para abrir el inventario, y usar los objetos. Selecciona un objeto del inventario para equiparlo.\n\nMata el Mago de Aire para ganar el juego!
+
+# EndGameDisplay.java
+
+Player Score: 
+Puntos del Jugador: 
+
+<Bonuses>
+<Bonus>
+
+Final Score: 
+Puntos final: 
+
+Exit to Menu
+Salir al Menu
+
+# InfoDisplay.java
+
+Time Played: 
+Tiempo Jugado: 
+
+Current Score: 
+Puntuación Actual: 
+
+Exit
+Salir
+
+Player Stats
+Estadisticas del Jugador
+
+# KeyInputMenu.java
+
+Controls
+Controles
+
+Press the desired
+Presione el deseado
+
+key sequence
+secuencia de tecla
+
+Are you sure you want to reset all key bindings to the default keys?
+Estás seguro que quieres reiniciar todos los atajos de teclado a las teclas predeterminadas?
+
+enter to confirm
+enter para confirmar
+
+escape to cancel
+ESC para cancelar
+
+Confirm Action
+Confirmar Acción
+
+Press C/Enter to change key binding
+Presiona C/Enter para cambiar el atajo de teclado
+
+Press A to add key binding
+Presiona A para añadir atajo de teclado
+
+Shift-D to reset all keys to default
+Shift-D para restablecer todas las teclas a sus valores predeterminados
+
+ESCAPE to Return to menu
+ESC para Regresar al menú
+
+# LoadingDisplay.java
+
+Loading
+Cargando
+
+Starting
+Iniciando
+
+Generating
+Generando
+
+Generating surface!
+Generando superficie!
+
+Generating caves!
+Generando cuevas!
+
+Generating the dungeon!
+Generando el calabozo!
+
+Generating the heaven!
+Generando el cielo!
+
+Generating forests
+Generando bosques
+
+Generating meadow
+Generando pradera
+
+Generating beaches
+Generando playas
+
+Generating mountains
+Generando montañas
+
+Generating mushrooms
+Generando hongos
+
+Generating ores
+Generando minerales
+
+Generating clouds
+Generando nubes
+
+Rendering
+Renderizando
+
+World
+Mundo
+
+May take a while, be patient
+Puede tardar un poco, tenga paciencia
+
+Level 2
+Nivel 2
+
+Level 1
+Nivel 1
+
+Level 0
+Nivel 0
+
+Level B1
+Nivel B1
+
+Level B2
+Nivel B2
+
+Level B3
+Nivel B3
+
+Level B4
+Nivel B4
+
+# MapDisplay.java
+
+Map
+Mapa
+
+# MultiplayerMenu.java
+
+waiting...
+esperando...
+
+nothing
+nada
+
+attempting log in
+intentando iniciar sesión
+
+no internet connection, but no login data saved; cannot enter offline mode.
+no hay conexión a Internet, pero no se guardaron datos de inicio de sesión; no puede ingresar al modo fuera de línea.
+
+connecting to server
+conectando al servidor
+
+logging in
+iniciando sesión
+
+saving credentials
+guardando credenciales
+
+login failed.
+error de inicio de sesion.
+
+problem with saved login data; please exit and login again.
+problema con los datos de inicio de sesión guardados; por favor salga y vuelva a iniciar sesión.
+
+Internal server error: Couldn't fetch username from uuid
+Error interno del servidor: no se pudo obtener el nombre de usuario de uuid
+
+logged in as: 
+conectado como: 
+
+offline mode: local servers only
+modo fuera de línea: solo servidores locales
+
+Enter ip address to connect to:
+Ingrese la dirección de IP para conectarse:
+
+Press Shift-Escape to logout
+Presione Shift-ESC para cerrar la sesión
+
+Enter email:
+Ingrese correo electronico:
+
+Enter password:
+Ingrese contraseña:
+
+field is blank
+el campo esta en blanco
+
+get an account at:
+obtenga una cuenta en:
+
+Loading 
+Cargando 
+
+ from server
+ desde el servidor
+ 
+Could not connect to server:
+no pudo conectar al servidor:
+
+Press 
+Presione 
+
+ to return
+ para regresar
+
+# OptionsMenu.java
+
+Options
+Opciones
+
+Change Key Bindings
+Atajos de teclas
+
+Change language
+Cambiar idioma
+
+Video options
+Opciones de video
+
+Texture packs
+Paquetes de texturas
+
+Open Game Folder
+Abrir carpeta del juego
+
+Open World Folder
+Abrir carpeta del mundo
+
+# PauseDisplay.java
+
+Return to Game
+Regresar al Juego
+
+Options
+Opciones
+
+Achievements
+Logros
+
+World info
+Info del mundo
+
+Save Game
+Guardar Juego
+
+ and 
+ y 
+ 
+ to Scroll
+ para desplazarse
+ 
+: Choose
+: Escoge
+ 
+Paused
+Pausado
+
+Main Menu
+Menu Principal
+
+Yes
+Si
+
+No
+No
+
+Cancel
+Cancelar
+
+Are you sure you want to exit the game?
+¿Estas seguro de que quieres salir del juego?
+
+All unsaved progress will be lost
+Todo el progreso no guardado se perdera
+
+Quit without saving
+Salir sin guardar
+
+# PlayerInvMenu.java
+
+Inventory
+Inventario
+
+to search
+para buscar
+
+# TitleDisplay.java
+
+Play
+Jugar
+
+Load World
+Cargar Mundo
+
+New World
+Nuevo Mundo
+
+Options
+Opciones
+
+Credits
+Creditos
+
+Help
+Ayuda
+
+Instructions
+Instrucciones
+
+Storyline Guide (for the weak)
+Guia de historias (para los debiles)
+
+About
+Acerca
+
+Minicraft discord
+Discord de Minicraft
+
+Quit
+Salir
+
+ to select
+ para seleccionar
+ 
+ to accept
+ para aceptar
+ 
+ to return
+ para regresar
+
+Mod by TheBigEye
+Mod por TheBigEye
+
+# WorldEditDisplay.java
+
+New World Name:
+Nuevo Nombre del Mundo:
+
+Are you sure you want to delete
+Estas seguro que quieres eliminar
+
+This can not be undone!
+¡Esto no se puede deshacer!
+
+ to confirm
+ para confirmar
+ 
+ to cancel
+ para cancelar
+
+# WorldGenDisplay.java
+
+New World
+Mundo Nuevo
+
+World Seed
+Semilla
+
+Enter World Name
+Nombre del Mundo
+
+Create World
+Crear Mundo
+
+World Gen Options
+Opciones de Generador de Mundo
+
+# WorldSelectDisplay.java
+
+Name:
+Nombre:
+
+Seed:
+Semilla:
+
+ to Copy
+ para Copiar
+
+ to Rename
+ para Renombrar
+
+ to Delete
+ para Eliminar
+
+ to confirm
+ para confirmar
+ 
+ to return
+ para regresar
+
+Select World
+Seleccionar Mundo
+
+Select a World to Delete
+Seleccione un mundo para eliminar
+
+Select a World to Rename
+Seleccione un mundo para renombrar
+
+Select a World to Copy
+Seleccione un mundo para copiar
+
+Higher version, cannot load world!
+¡Versión superior, no se puede cargar el mundo!
+
+World Version:
+Version del mundo:
+
+# LocalizationMenu.java
+
+Languages
+Idiomas
+
+Language
+Idioma
+
+Select
+Seleccionar
+
+### screen end
+
+### minicraft
+
+# Settings.java
+
+Max FPS
+Max FPS
+
+Difficulty
+Dificultad
+
+Peaceful
+Pacifico
+
+Easy
+Facil
+
+Normal
+Normal
+
+Hard
+Dificil
+
+Game Mode
+Modo de Juego
+
+Survival
+Supervivencia
+
+Creative
+Creativo
+
+Hardcore
+Extremo
+
+Score
+Puntos
+
+Time (Score Mode)
+Tiempo (Modo Puntos)
+
+Sound
+Sonido
+
+Autosave
+Autoguardado
+
+Particles
+Particulas
+
+Shadows
+Sombras
+
+World Size
+Tamaño del Mundo
+
+World Theme
+Tema del Mundo
+
+Normal
+Normal
+
+Forest
+Bosque
+
+Desert
+Desierto
+
+Plain
+Plano
+
+Hell
+Infierno
+
+Terrain Type
+Tipo de Terreno
+
+Island
+Isla
+
+Box
+Caja
+
+Mountain
+Montaña
+
+Irregular
+Irregular
+
+Wear Suit
+Usar traje
+
+Cheats
+Trucos
+
+# TutorialDisplay.java
+
+Welcome to the tutorial!,
+Bienvenido al tutorial!,
+
+are you new? Don't worry,
+eres nuevo? No te preocupes
+
+here you will learn the
+aqui aprenderas lo
+
+basics of the game,
+basico del juego,
+
+have fun!
+Diviertete!
+
+Moving the character
+Mover el personaje
+
+Mobs?, What's that
+Mobs?, Que es eso?
+
+How to Attack
+Como atacar
+
+The Inventory
+El inventario
+
+The Villagers
+Los Aldeanos
+
+Furnitures
+Muebles
+
+Crafting
+Crafteo
+
+Potions
+Pociones
+
+Farming
+Agricultura
+
+Mining
+Mineria
+
+Bosses
+Jefes
+
+# ControlsTutorial.java
+
+Moving the character.
+Mover el personaje.
+
+You can move your character through
+Puedes mover tu personaje a través
+
+the keyboard, unfortunately
+del teclado, desafortunadamente
+
+there is no mouse :(
+aqui no hay mouse :(
+
+You can move with:
+Puedes moverte con:
+
+You can also change the controls to
+También puedes cambiar los controles a
+
+your liking in:
+tu gusto en:
+
+Options > Change Key bindings
+Opciones > Cambiar Atajos
+
+
+# MobsTutorial.java
+
+Mobs?, What's that.
+Mobs?, Que es eso?.
+
+Mobs are all the creatures that inhabit
+Los Mobs son todas las criaturas que habitan
+
+the world, they can be peaceful like
+El mundo, ellos pueden ser pacíficos como
+
+Animals, Villagers, etc, and they can be
+Los Animales, aldeanos, etc., y pueden ser
+
+Hostile like Zombies, Skeletons, etc.
+Hostiles como zombis, esqueletos, etc.
+
+Peaceful mobs:
+Mobs pacificos:
+
+Hostile mobs:
+Mobs hostiles:
+
+
+# CombatTutorial.java
+
+How to Attack.
+Como atacar.
+
+You can attack with:
+Puedes atacar con:
+
+When killing some mobs, they drop loot or
+Cuando matas a algunos Mobs, sueltan botín o
+
+materials for the crafting of other items:
+materiales para el crafteo de otros items:
+
+You can also hit Tiles, like trees or rocks
+También puedes golpear Tiles, como Arboles o Rocas.
+
+to get resources and modify your environment:
+para obtener recursos y modificar tu entorno:
+
+### minicraft end
