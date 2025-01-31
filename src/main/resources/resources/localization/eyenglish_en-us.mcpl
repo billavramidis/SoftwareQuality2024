@@ -1,0 +1,1853 @@
+### Achievement
+
+# achievement
+
+minicraft.achievement.woodcutter
+rettucdooW
+
+minicraft.achievement.woodcutter.desc
+doow teG.
+
+minicraft.achievement.benchmarking
+emit gnitfarC
+
+minicraft.achievement.benchmarking.desc
+hcnebkrow a tfarC.
+
+minicraft.achievement.mine_stone
+ega enotS!
+
+minicraft.achievement.mine_stone.desc
+exakcip wen ruoy htiw enots eniM!
+
+minicraft.achievement.smelt_iron
+ega norI!!
+
+minicraft.achievement.smelt_iron.desc
+ti tlem dna nori eniM.
+
+minicraft.achievement.upgrade
+edargpU!
+
+minicraft.achievement.upgrade.desc
+doow naht regnorts si taht lairetam a fo edam loot a teG.
+
+minicraft.achievement.iron_tools
+yvaeh woH!
+
+minicraft.achievement.iron_tools.desc
+enots naht regnorts si taht lairetam a fo edam loot a teG.
+
+minicraft.achievement.monsters
+taht s'tahW!?
+
+minicraft.achievement.monsters.desc
+bom elitsoh a lliK.
+
+minicraft.achievement.fish
+hsif oT!
+
+minicraft.achievement.fish.desc
+hsif a teG.
+
+minicraft.achievement.doors
+¡coT COT!
+
+minicraft.achievement.doors.desc
+srood fo sepyt lla ecalP.
+
+minicraft.achievement.planks
+sknalp eht klaW!
+
+minicraft.achievement.planks.desc
+sknalp fo sepyt lla ecalP.
+
+minicraft.achievement.clothes
+yad lufroloc a evaH!
+
+minicraft.achievement.clothes.desc
+sehtolc lufroloc eht lla tfarC.
+
+minicraft.achievement.demolition
+mooB!
+
+minicraft.achievement.demolition.desc
+TNT esU.
+
+minicraft.achievement.explosive_ending
+gnide evisolpxe nA
+
+minicraft.achievement.explosive_ending.desc
+pu flesruoy wolb "yllatnediccA".
+
+minicraft.achievement.survive_darkness
+krad eht fo diarfA?
+
+minicraft.achievement.survive_darkness.desc
+ssenkrad latot ni setunim 5 evivruS.
+
+minicraft.achievement.lava
+sriaffA toH
+
+minicraft.achievement.lava.desc
+aval ni miws ot noitop aval a esU.
+
+minicraft.achievement.find_gem
+senihs ti woh kooL!
+
+minicraft.achievement.find_gem.desc
+meht enim dna smeg dniF.
+
+minicraft.achievement.lowest_caves
+thgil eht dniheb ssenkraD
+
+minicraft.achievement.lowest_caves.desc
+sevac rewol eht ot teG.
+
+minicraft.achievement.obsidian_dungeon
+ereh nwod toh s'tI!
+
+minicraft.achievement.obsidian_dungeon.desc
+noegnuD naidisbO eht ot teG.
+
+minicraft.achievement.airwizard
+gninnigeb tsuj siht sI?
+
+minicraft.achievement.airwizard.desc
+draziW riA tsrif eht lliK!
+
+minicraft.achievement.second_airwizard
+efilretfA!
+
+minicraft.achievement.second_airwizard.desc
+egaM riA dnoces eht lliK.
+
+minicraft.achievement.eye_queen
+uoy ees I!
+
+minicraft.achievement.eye_queen.desc
+neeuq eyE eht llik dna nommuS.
+
+minicraft.achievement.eat_all_food
+teid a nO
+
+minicraft.achievement.eat_all_food.desc
+elbatae si revetahw taE.
+
+
+# AchievementsDisplay.java
+Earned!
+!denraE
+
+Not Earned
+denraE toN
+
+Achievements Score:
+erocS stnemeveihcA:
+
+### entity
+
+## entity.particle
+## entity.particle end
+
+# Entity.java
+Entities
+seititnE
+
+# AirWizard.java
+Air Wizard: Defeated!
+detaefeD :draziW riA!
+
+The Dungeon is now open!
+nepo won si noegnuD ehT!
+
+A costume lies on the ground...
+dnuorg eht no seil emutsoc A...
+
+# Bed.java
+Can't sleep! 
+peels t'naC!
+	
+Min 
+niM
+	
+ Sec left!
+ tfel ceS!
+
+# DungeonChest.java
+You hear a noise from the surface!
+ecafrus eht morf esion a raeh uoY!
+
+# DeathChest.java
+Death Chest
+tsehC htaeD
+
+# Player.java
+
+Player
+reyalP
+
+Crafting
+gnitfarC
+
+Set your home!
+emoh ruoy teS!
+
+Can't set home here!
+ereh emoh tes t'naC!
+
+Home Sweet Home!
+emoH teewS emoH!
+
+Mode penalty: -2 health
+htlaeh 2- :ytlanep edoM
+
+You don't have a home!
+asac anu seneit oN!
+
+You can't go home from here!
+ereh morf emoh og t'nac uoY!
+ 
+### entity end
+
+### gfx
+### gfx end
+
+### item
+
+# ArmorItem.java
+Leather Armor
+romrA rehtaeL
+
+Snake Armor
+romrA ekanS
+
+ChainMail Armor
+romrA liaMniahC
+
+Iron Armor
+romrA norI
+
+Gold Armor
+romrA dloG
+
+Gem Armor
+romrA meG
+
+# BoatItem.java
+
+Boat
+taoB
+
+# BookItem.java
+
+Book
+kooB
+
+Antidious
+suoiditnA
+
+AlAzif
+fizAlA
+
+# BucketItem.java
+
+Empty Bucket
+tekcuB ytpmE
+
+Water Bucket
+tekcuB retaW
+
+Lava Bucket
+tekcuB avaL
+
+ Bucket
+ tekcuB
+ 
+# ClothingItem.java
+
+Red Clothes
+sehtolC deR
+
+Blue Clothes
+sehtolC eulB
+
+Green Clothes
+sehtolC neerG
+
+Yellow Clothes
+sehtolC wolleY
+
+Black Clothes
+sehtolC kcalB
+
+Orange Clothes
+sehtolC egnarO
+
+Purple Clothes
+sehtolC elpruP
+
+Cyan Clothes
+sehtolC nayC
+
+Reg Clothes
+sehtolC geR
+
+# FoodItem.java
+
+Bread
+daerB
+
+Apple
+elppA
+
+Frozen palette
+ettelap nezorF
+
+Mushroom Soup
+puoS moorhsuM
+
+Carrot Soup
+puoS torraC
+
+Raw Chicken
+nekcihC waR
+
+Raw Pork
+kroP waR
+
+Raw Fish
+hsiF waR
+
+Raw Beef
+feeB waR
+
+Cooked Chicken
+nekcihC dekooC
+
+Pork Chop
+pohC kroP
+
+Cooked Fish
+hsiF dekooC
+
+Cooked Pork
+kroP dekooC
+
+Steak
+kaetS
+
+Gold Apple
+elppA dloG
+
+Gold Carrot
+torraC dloG
+
+# FurnitureItem.java
+
+KingZombie Spawner
+renwapS eibmoZ sgniK
+
+Cow Spawner
+renwapS swoC
+
+Pig Spawner
+renwapS sgiP
+
+Sheep Spawner
+renwapS speehS
+
+Goat Spawner
+renwapS staoG
+
+Chicken Spawner
+renwapS snekcihC
+
+Cleric Spawner
+renwapS scirelC
+
+Librarian Spawner
+renwapS snairarbiL
+
+GuiMan Spawner
+renwapS sniugneP
+
+Cat Spawner
+renwapS staC
+
+Golem Spawner
+renwapS smeloG
+
+Slime Spawner
+renwapS semilS
+
+Zombie Spawner
+renwapS seibmoZ
+
+Mooshroom Spawner
+renwapS smoorhsooM
+
+Creeper Spawner
+renwapS srepeerC
+
+Skeleton Spawner
+renwapS snotelekS
+
+Snake Spawner
+renwapS sekanS
+
+Knight Spawner
+renwapS sthginK
+
+OldGolem Spawner
+renwapS smelog tsuR
+
+AirWizard Spawner
+renwapS sdraziW riA
+
+EyeQueen Spawner
+renwapS sneeuQ eyE
+
+Cthulhu Spawner
+renwapS suhluhtC
+
+Keeper Spawner
+renwapS srepeeK
+
+Workbench
+hcnebkroW
+
+Oven
+nevO
+
+Furnace
+ecanruF
+
+Anvil
+livnA
+
+Enchanter
+retnahcnE
+
+Assembler
+relbmessA
+
+Stonecutter
+rettucenotS
+
+Brewery
+yrewerB
+
+Loom
+mooL
+
+Lantern
+nretnaL
+
+Iron Lantern
+nretnaL norI
+
+Gold Lantern
+nretnaL dloG
+
+Tnt
+tnT
+
+Bed
+deB
+
+Slime Statue
+eutatS emilS
+
+Zombie Statue
+eutatS eibmoZ
+
+Skeleton Statue
+eutatS notelekS
+
+Chest
+tsehC
+
+Dungeon Chest
+tsehC noegnuD
+
+# MapItem.java
+
+Map book
+koob paM
+
+# AmuletItem.java
+
+Eye Amulet
+telumA eyE
+
+# PotionType.java
+
+None Potion
+noitoP enoN
+
+Speed Potion
+noitoP deepS
+
+xSpeed Potion
+II noitoP deepS
+
+Light Potion
+noitoP thgiL
+
+xLight Potion
+II noitoP thgiL
+
+Swim Potion
+noitoP miwS
+
+xSwim Potion
+II noitoP miwS
+
+Energy Potion
+noitoP ygrenE
+
+xEnergy Potion
+II noitoP ygrenE
+
+Regen Potion
+noitoP negeR
+
+xRegen Potion
+II noitoP negeR
+
+Health Potion
+noitoP htlaeH
+
+xHealth Potion
+II noitoP htlaeH
+
+Time Potion
+noitoP emiT
+
+Lava Potion
+noitoP avaL
+
+xLava Potion
+II noitoP avaL
+
+Shield Potion
+noitoP dleihS
+
+xShield Potion
+II noitoP dleihS
+
+Haste Potion
+noitoP etsaH
+
+Escape Potion
+noitoP epacsE
+
+Potion
+noitoP
+
+# PowerGloveItem.java
+
+Power Glove
+evolG rewoP
+
+# ShearItem.java
+
+Shears
+sraehS
+
+# StackableItem.java
+
+Wood
+dooW
+
+Spruce Wood
+dooW ecurpS
+
+Birch Wood
+dooW hcriB
+
+Leaf
+faeL
+
+Paper
+repaP
+
+Leather
+rehtaeL
+
+Wheat
+taehW
+
+Key
+yeK
+
+arrow
+worra
+
+Icicle
+elcicI
+
+Stick
+kcitS
+
+Bowl
+lwoB
+
+string
+gnirts
+
+feather
+rehtaef
+
+egg
+gge
+
+Stone
+enotS
+
+Holy Stone
+enotS yloH
+
+Andesite
+etisednA
+
+Diorite
+etiroiD
+
+Granite
+etinarG
+
+Silicon
+nociliS
+
+Basalt
+tlasaB
+
+Quartzite
+etiztrauQ
+
+Light gray dye
+eyd yarg thgiL
+
+Gray dye
+eyd yarG
+
+Ink sac
+cas knI
+
+Lime dye
+eyd emiL
+
+Yellow dye
+eyd wolleY
+
+Green dye
+eyd neerG
+
+Brown dye
+eyd nworB
+
+Red dye
+eyd deR
+
+Purple dye
+eyd elpruP
+
+Pink dye
+eyd kniP
+
+Magenta dye
+eyd atnegaM
+
+Dark green dye
+eyd neerg kraD
+
+Orange dye
+eyd egnarO
+
+Blue dye
+eyd eulB
+
+Cyan dye
+eyd nayC
+
+Light blue dye
+eyd eulb thgiL
+
+Coal
+laoC
+
+Iron Ore
+erO norI
+
+Lapis
+sipaL
+
+Gold Ore
+erO dloG
+
+Iron
+norI
+
+Gold
+dloG
+
+Rose
+esoR
+
+GunPowder
+redwoPnuG
+
+Slime
+emilS
+
+glass
+ssalg
+
+cloth
+htolc
+
+gem
+meg
+
+emerald
+dlareme
+
+Scale
+elacS
+
+Shard
+drahS
+
+Gear
+reaG
+
+Spring
+gnirpS
+
+Flint
+tnilF
+
+Flint and Steel
+leetS dna tnilF
+
+Protection I
+I noiccetorP
+
+Protection II
+II noiccetorP
+
+Protection III
+III noiccetorP
+
+I prahS
+I prahS
+
+Sharp II
+II prahS
+
+Sharp III
+III prahS
+
+Cordyceps essence
+ecnesse specydroC
+
+Sticky essence
+ecnesse ykcitS
+
+Gaseous essence
+ecnesse suoesaG
+
+Master essence
+ecnesse retsaM
+
+# TileItem.java
+
+Flower
+rewolF
+
+Orange Tulip
+piluT egnarO
+
+Red Mushroom
+moorhsuM deR
+
+Brown Mushroom
+moorhsuM nworB
+
+Acorn
+nrocA
+
+Birch Cone
+enoC hcriB
+
+Fir Cone
+enoC riF
+
+Pine Cone
+enoC eniP
+
+Dirt
+triD
+
+Sky dirt
+trid ykS
+
+Natural Rock
+kcoR larutaN
+
+Natural Hard Rock
+kcoR draH larutaN
+
+Plank
+knalP
+
+Spruce Plank
+knalP ecurpS
+
+Birch Plank
+knalP hcriB
+
+Plank Wall
+llaW knalP
+
+Spruce Wall
+llaW ecurpS
+
+Birch Wall
+llaW hcriB
+
+Wood Door
+rooD dooW
+
+Spruce Door
+rooD ecurpS
+
+Birch Door
+rooD hcriB
+
+Stone Brick
+kcirB enotS
+
+Stone Wall
+llaW enotS
+
+Stone Door
+rooD enotS
+
+Holy Brick
+kcirB yloH
+
+Holy Wall
+llaW yloH
+
+Holy Door
+rooD yloH
+
+Obsidian Brick
+kcirB naidisbO
+
+Obsidian Wall
+llaW naidisbO
+
+Obsidian Door
+rooD naidisbO
+
+Wool
+looW
+
+Light Gray Wool
+looW yarG thgiL
+
+Gray Wool
+looW yarG
+
+Black Wool
+looW kcalB
+
+Brown Wool
+looW nworB
+
+Red Wool
+looW deR
+
+Orange Wool
+looW egnarO
+
+Yellow Wool
+looW wolleY
+
+Lime Wool
+looW emiL
+
+Green Wool
+looW neerG
+
+Cyan Wool
+looW nayC
+
+Light Blue Wool
+looW eulB thgiL
+
+Blue Wool
+looW eulB
+
+Purple Wool
+looW elpruP
+
+Magenta Wool
+looW atnegaM
+
+Pink Wool
+looW kniP
+
+Sand
+dnaS
+
+Mycelium
+muilecyM
+
+Snow Ball
+llaB wonS
+
+Cactus
+sutcaC
+
+Seeds
+sdeeS
+
+Carrot
+torraC
+
+Potato
+otatoP
+
+Sky wart
+traw ykS
+
+Sky Seeds
+sdeeS ykS
+
+Grass Seeds
+sdeeS ssarG
+
+Bone
+enoB
+
+Bone Powder
+redwoP enoB
+
+Ferrosite
+etisorreF
+
+Cloud
+duolC
+
+Can only be placed on 
+no decalp eb ylno naC
+
+Dig a hole first!
+tsrif eloh a giD!
+
+# ToolItem.java
+
+Wood
+dooW
+
+Rock
+kcoR
+
+Iron
+norI
+
+Gold
+dloG
+
+Gem
+meG
+
+Fishing rod
+dor gnihsiF
+
+# FishingRodItem.java
+
+Wood Fishing rod
+dor gnihsiF dooW
+
+Iron Fishing rod
+dor gnihsiF norI
+
+Gold Fishing rod
+dor gnihsiF dloG
+
+Gem Fishing rod
+dor gnihsiF meG
+
+# ToolType.java
+
+Hoe
+eoH
+
+Shovel
+levohS
+
+Sword
+drowS
+
+Spear
+raepS
+
+Pickaxe
+exakciP
+
+Axe
+exA
+
+Bow
+woB
+
+FishingRod
+doRgnihsiF
+
+Claymore
+eromyalC
+
+Shears
+sraehS
+
+Igniter
+retingI
+
+# TorchItem.java
+
+Torch
+hcroT
+
+### item end
+
+### level
+
+## tile 
+
+# Tiles.java
+
+Gem Ore
+erO meG
+
+Wood Planks
+sknalP dooW
+
+Spruce Planks
+sknalP ecurpS
+
+Birch Planks
+sknalP hcriB
+
+Stone Bricks
+skcirB enotS
+
+Obsidian
+naidisbO
+
+Wood Wall
+llaW dooW
+
+Spruce Wall
+llaW ecurpS
+
+Birch Wall
+llaW hcriB
+
+Grass
+ssarG
+
+Mycelium
+muilecyM
+
+Dirt
+triD
+
+Flower
+rewolF
+
+Hole
+eloH
+
+Stairs Up
+pU sriatS
+
+Stairs Down
+nwoD sriatS
+
+Water
+retaW
+
+Rock
+kcoR
+
+Tree
+eerT
+
+Tree Sapling
+gnilpaS eerT
+
+Sand
+dnaS
+
+Cactus
+sutcaC
+
+Cactus Sapling
+gnilpaS sutcaC
+
+Lava
+avaL
+
+Lava Brick
+kcirB avaL
+
+Explode
+edolpxE
+
+Farmland
+dnalmraF
+
+Wheat
+taehW
+
+Carrot
+torraC
+
+Hard Rock
+kcoR draH
+
+Infinite Fall
+llaF etinifnI
+
+Cloud
+duolC
+
+Cloud Cactus
+sutcaC duolC
+
+# OreTile.java
+
+Iron
+norI
+
+Lapis
+sipaL
+
+Gold
+dloG
+
+Gem
+meG
+
+Ore
+erO
+
+## tile end
+
+### level end
+
+### network
+
+# MinicraftClient.java
+
+host not found
+alojamiento no encontrado
+
+unable to get localhost address
+incapaz de obtener la direccion localhost
+
+### network end
+
+### saveload
+
+# Save.java
+
+World Saved!
+devaS dlroW!
+
+### saveload end
+
+### screen
+
+## entry
+
+# BooleanEntry.java
+
+On
+nO
+
+Off
+ffO
+
+## entry end
+
+# BookDisplay.java
+
+There is nothing of use here.
+.ereh esu fo gnihton si erehT
+
+Still nothing... :P
+gnihton llitS... :P
+
+# CraftingMenu.java
+
+Have:
+evaH:
+
+Cost:
+tsoC:
+
+# DeadMenu.java
+
+Time:
+emiT: 
+
+Score: 
+erocS: 
+
+Quit
+tiuQ
+
+Respawn
+nwapseR
+
+You died! Aww!
+wwA deid! uoY!
+
+# Displays.java
+
+With the default controls...\n\nMove your character with arrow keys or WSAD. Press C to attack and X to open the inventory, and to use items. Select an item in the inventory to equip it.\n\nKill the air wizard to win the game!
+!emag eht niw ot draziw ria eht lliK\n\n.ti piuqe ot yrotnevni eht ni meti na tceleS .smeti esu ot dna ,yrotnevni eht nepo ot X dna kcatta ot C sserP .DASW ro syek worra htiw retcarahc ruoy evoM\n\n...slortnoc tluafed eht htiW
+
+# EndGameDisplay.java
+
+Player Score: 
+erocS reyalP: 
+
+<Bonuses>
+<sesunoB>
+
+Final Score: 
+erocS laniF:
+
+Exit to Menu
+uneM ot tixE
+
+# InfoDisplay.java
+
+Time Played: 
+deyalP emiT: 
+
+Current Score: 
+erocS tnerruC: 
+
+Exit
+tixE
+
+Player Stats
+statS reyalP
+
+# KeyInputMenu.java
+
+Controls
+slortnoC
+
+Press the desired
+derised eht sserP
+
+key sequence
+ecneuqes yek
+
+Are you sure you want to reset all key bindings to the default keys?
+syek tluafed eht ot sgnidnib yek lla teser ot tnaw uoy erus uoy erA?
+
+enter to confirm
+mrifnoc ot retne
+
+escape to cancel
+lecnac ot epacse
+
+Confirm Action
+noitcA mrifnoC
+
+Press C/Enter to change key binding
+gnidnib yek egnahc ot retnE/C sserP
+
+Press A to add key binding
+gnidnib yek dda ot A sserP
+
+Shift-D to reset all keys to default
+tluafed ot syek lla teser ot D-tfihS
+
+ESCAPE to Return to menu
+unem ot nruteR ot EPACSE
+
+# LoadingDisplay.java
+
+Loading
+gnidaoL
+
+Generating
+gnitareneG
+
+Separating
+gnitarapeS
+
+Planting
+gnitnalP
+
+Eroding
+gnidorE
+
+Digging
+gniggiD
+
+Raising
+gnisiaR
+
+Leveling
+gnileveL
+
+Flattening
+gninettalF
+
+Molding
+gnidloM
+
+Building
+gnidliuB
+
+Rendering
+gniredneR
+
+World
+dlroW
+
+May take a while, be patient
+tneitap eb ,elihw a ekat yaM
+
+Level 1
+1 leveL
+
+Level 0
+0 leveL
+
+Level B1
+1B leveL
+
+Level B2
+2B leveL
+
+Level B3
+3B leveL
+
+Level B4
+4B leveL
+
+# MapDisplay.java
+
+Map
+paM
+
+# MultiplayerMenu.java
+
+waiting...
+esperando...
+
+nothing
+nada
+
+attempting log in
+intentando iniciar sesión
+
+no internet connection, but no login data saved; cannot enter offline mode.
+no hay conexión a Internet, pero no se guardaron datos de inicio de sesión; no puede ingresar al modo fuera de línea.
+
+connecting to server
+conectando al servidor
+
+logging in
+iniciando sesión
+
+saving credentials
+guardando credenciales
+
+login failed.
+error de inicio de sesion.
+
+problem with saved login data; please exit and login again.
+problema con los datos de inicio de sesión guardados; por favor salga y vuelva a iniciar sesión.
+
+Internal server error: Couldn't fetch username from uuid
+Error interno del servidor: no se pudo obtener el nombre de usuario de uuid
+
+logged in as: 
+conectado como: 
+
+offline mode: local servers only
+modo fuera de línea: solo servidores locales
+
+Enter ip address to connect to:
+Ingrese la dirección de IP para conectarse:
+
+Press Shift-Escape to logout
+Presione Shift-ESC para cerrar la sesión
+
+Enter email:
+Ingrese correo electronico:
+
+Enter password:
+Ingrese contraseña:
+
+field is blank
+el campo esta en blanco
+
+get an account at:
+obtenga una cuenta en:
+
+Loading 
+Cargando 
+
+ from server
+ desde el servidor
+ 
+Could not connect to server:
+no pudo conectar al servidor:
+
+Press 
+Presione 
+
+ to return
+ para regresar
+
+# OptionsMenu.java
+
+Change Key Bindings
+sgnidniB yeK egnahC
+
+Options
+snoitpO
+
+Change language
+egaugnal egnahC
+
+Texture packs
+skcap erutxeT
+
+Open Game Folder
+redloF emaG nepO
+
+# PauseMenu.java
+
+Return to Game
+emaG ot nruteR
+
+Options
+snoitpO
+
+Info
+ofnI
+
+Make World Multiplayer
+rodagujitluM odnuM recaH
+
+Achievements
+stnemeveihcA
+
+World info
+ofni dlroW
+
+Save Game
+emaG evaS
+
+ and 
+ dna 
+ 
+ to Scroll
+ llorcS ot
+ 
+: Choose
+: esoohC
+ 
+Paused
+desuaP
+
+Main Menu
+uneM niaM
+
+# PauseDisplay.java
+
+Yes
+seY
+
+No
+oN
+
+# PlayerInvMenu.java
+
+Inventory
+yrotnevnI
+
+to search.
+hcraes ot.
+
+# TitleMenu.java
+
+Play
+yalP
+
+Load World
+dlroW daoL
+
+New World
+dlroW weN
+
+Multiplayer
+reyalpitluM
+
+Options
+snoitpO
+
+Credits
+stiderC
+
+Help
+pleH
+
+Instructions
+snoitcurtsnI
+
+Storyline Guide (for the weak)
+(kaew eht rof) ediuG enilyrotS
+
+About
+tuobA
+
+Minicraft discord
+drocsid tfarciniM
+
+Quit
+tiuQ
+
+ to select
+ tceles ot
+ 
+ to accept
+ tpecca ot
+ 
+ to return
+ nruter ot
+
+Mod by TheBigEye
+eyEgiBehT yb doM
+
+# WorldEditMenu.java
+
+New World Name:
+emaN dlroW weN:
+
+Are you sure you want to delete
+eteled ot tnaw uoy erus uoy erA
+
+This can not be undone!
+enodnu eb ton nac sihT!
+
+ to confirm
+ mrifnoc ot
+ 
+ to cancel
+ lecnac ot
+
+# WorldGenMenu.java
+
+World Seed
+deeS dlroW
+
+Enter World Name
+emaN dlroW retnE
+
+Trouble with world name?
+eman dlrow htiw elbuorT?
+
+by default, w and s move the cursor up and down. This can be changed in the key binding menu. To type the letter instead of moving the cursor, hold the shift key while typing the world name.
+by default, w and s move the cursor up and down. This can be changed in the key binding menu. To type the letter instead of moving the cursor, hold the shift key while typing the world name.
+
+Create World
+dlroW etaerC
+
+World Gen Options
+snoitpO neG dlroW
+
+# WorldSelectMenu.java
+
+Name:
+emaN:
+
+Seed:
+deeS:
+
+ to Copy
+ ypoC ot
+
+ to Rename
+ emaneR ot
+
+ to Delete
+ eteleD ot
+
+ to confirm
+ mrifnoc ot
+ 
+ to return
+ nruter ot
+ 
+Select World
+dlroW tceleS
+
+Select a World to Delete
+eteleD ot dlroW a tceleS
+
+Select a World to Rename
+emaneR ot dlroW a tceleS
+
+Select a World to Copy
+ypoC ot dlroW a tceleS
+
+Select a World to 
+ot dlroW a tceleS 
+
+Higher version, cannot load world!
+dlrow daol tonnac ,noisrev rehgiH!
+
+World Version:
+noisreV dlroW:
+
+# LocalizationMenu.java
+
+Languages
+segaugnaL
+
+Language
+egaugnaL
+
+Select
+tceleS
+
+### screen end
+
+### minicraft
+
+# Settings.java
+
+Max FPS
+SPF xaM
+
+Difficulty
+ytluciffiD
+
+Peaceful
+lufecaeP
+
+Easy
+ysaE
+
+Normal
+lamroN
+
+Hard
+draH
+
+Game Mode
+edoM emaG
+
+Survival
+lavivruS
+
+Creative
+evitaerC
+
+Hardcore
+erocdraH
+
+Score
+erocS
+
+Time (Score Mode)
+(edoM erocS) emiT
+
+Sound
+dnuoS
+
+Autosave
+evasotuA
+
+Ambient
+tneibmA
+
+World Size
+eziS dlroW
+
+World Theme
+emehT dlroW
+
+Normal
+lamroN
+
+Forest
+tseroF
+
+Desert
+treseD
+
+Plain
+nialP
+
+Hell
+lleH
+
+Terrain Type
+epyT niarreT
+
+Island
+dnalsI
+
+Box
+xoB
+
+Mountain
+niatnuoM
+
+Irregular
+ralugerrI
+
+Wear Suit
+tiuS raeW
+
+# TutorialDisplay.java
+
+Welcome to the tutorial!,
+Bienvenido al tutorial!,
+
+are you new? Don't worry,
+eres nuevo? No te preocupes
+
+here you will learn the
+aqui aprenderas lo
+
+basics of the game,
+basico del juego,
+
+have fun!
+Diviertete!
+
+Moving the character
+Mover el personaje
+
+Mobs?, What's that
+Mobs?, Que es eso?
+
+How to Attack
+Como atacar
+
+The Inventory
+El inventario
+
+The Villagers
+Los Aldeanos
+
+Furnitures
+Muebles
+
+Crafting
+gnitfarC
+
+Potions
+Pociones
+
+Farming
+Agricultura
+
+Mining
+Mineria
+
+Bosses
+Jefes
+
+# ControlsTutorial.java
+
+Moving the character.
+Mover el personaje.
+
+You can move your character through
+Puedes mover tu personaje a través
+
+the keyboard, unfortunately
+del teclado, desafortunadamente
+
+there is no mouse :(
+aqui no hay mouse :(
+
+You can move with:
+Puedes moverte con:
+
+You can also change the controls to
+También puedes cambiar los controles a
+
+your liking in:
+tu gusto en:
+
+Options > Change Key bindings
+Opciones > Cambiar Atajos
+
+
+# MobsTutorial.java
+
+Mobs?, What's that.
+Mobs?, Que es eso?.
+
+Mobs are all the creatures that inhabit
+Los Mobs son todas las criaturas que habitan
+
+the world, they can be peaceful like
+El mundo, ellos pueden ser pacíficos como
+
+Animals, Villagers, etc, and they can be
+Los Animales, aldeanos, etc., y pueden ser
+
+Hostile like Zombies, Skeletons, etc.
+Hostiles como zombis, esqueletos, etc.
+
+Peaceful mobs:
+Mobs pacificos:
+
+Hostile mobs:
+Mobs hostiles:
+
+
+# CombatTutorial.java
+
+How to Attack.
+Como atacar.
+
+You can attack with:
+Puedes atacar con:
+
+When killing some mobs, they drop loot or
+Cuando matas a algunos Mobs, sueltan botín o
+
+materials for the crafting of other items:
+materiales para el crafteo de otros items:
+
+You can also hit Tiles, like trees or rocks
+También puedes golpear Tiles, como Arboles o Rocas.
+
+to get resources and modify your environment:
+para obtener recursos y modificar tu entorno:
+
+### minicraft end

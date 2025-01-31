@@ -1,0 +1,50 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+project.version = '1.0'
+
+sourceCompatibility = 8
+mainClassName = 'minicraft.core.Game'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+    maven { 
+        url 'https://jitpack.io' 
+    }
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:24.1.0'
+    implementation 'org.json:json:20240205'
+    implementation 'com.konghq:unirest-java:3.14.5'
+    implementation 'org.tinylog:tinylog-api:2.7.0'
+    implementation 'org.tinylog:tinylog-impl:2.7.0'
+    implementation 'com.github.JnCrMx:discord-game-sdk4j:v0.5.5'
+    implementation 'org.jogamp.gluegen:gluegen-rt-main:2.3.2'
+    implementation 'org.jogamp.joal:joal-main:2.3.2'
+}
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.github.jengelman.gradle.plugins:shadow:7.0.0'
+    }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+
+shadowJar {
+    archivesBaseName = 'aircraft'
+    archiveClassifier.set('')
+
+    manifest {
+        attributes(
+            'Main-Class': mainClassName,
+            'Implementation-Title': project.name,
+            'Implementation-Version': project.version
+        )
+    }
+}
