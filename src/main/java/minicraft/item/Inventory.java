@@ -44,10 +44,4 @@ public class Inventory {
                 return 0;
     }
 
-    public void addAll(Inventory other) {
-        for (Item item : other.getItems()) {
-            executeStrategy(AddInventoryStrategy.class, item.clone());
-        }
-    }
-
 }

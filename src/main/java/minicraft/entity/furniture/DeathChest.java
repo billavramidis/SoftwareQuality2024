@@ -9,6 +9,7 @@ import minicraft.graphic.Color;
 import minicraft.graphic.Font;
 import minicraft.graphic.Screen;
 import minicraft.graphic.Sprite;
+import minicraft.item.AddInventoryStrategy;
 
 public class DeathChest extends Chest {
 	private static Sprite normalSprite = new Sprite(6, 30, 2, 2, 2);
@@ -38,7 +39,7 @@ public class DeathChest extends Chest {
 		this();
 		this.x = player.x;
 		this.y = player.y;
-		getInventory().addAll(player.getInventory());
+		getInventory().executeStrategy(AddInventoryStrategy.class, player.getInventory());
 	}
 
 	// for death chest time count, I imagine.
@@ -91,7 +92,7 @@ public class DeathChest extends Chest {
 	@Override
 	public void touchedBy(Entity other) {
 		if (other instanceof Player) {
-			((Player)other).getInventory().addAll(getInventory());
+			((Player)other).getInventory().executeStrategy(AddInventoryStrategy.class,getInventory());
 			remove();
 			Game.notifications.add("Death chest retrieved!");
 		}
