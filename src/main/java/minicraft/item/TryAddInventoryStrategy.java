@@ -32,8 +32,12 @@ public class TryAddInventoryStrategy implements InventoryStrategy {
                     }
                 }
             }
-            // If the item cannot be stacked or no stackable item was found, add it at the specified slot
-            items.add(slot, item);  // Adds the item to the specified position in the list
+
+            if (slot >= 0 && slot <= items.size()) {
+                items.add(slot, item);
+            } else {
+                items.add(item);  // Add at the end as a fallback
+            }
         }
     }
 }
